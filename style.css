@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+/* contact */
+.contacct-section{
+   
+    height: 80vh;
+}
+.footer-write {
+    margin-top: 150px;
+}
+.footer-card
+{
+    cursor: pointer;
+}
+.footer-card:hover{
+
+  box-shadow: 1px 1px 6px  #008080;
+}
+.a-tag-footer{
+    color: black;
+    text-decoration: none;
+    
+}
+.contact-footer:hover{
+     box-shadow: 1px 1px 10px  #008080;
+}
+.icon-footer:hover{
+     box-shadow: 1px 1px 5px  #008080;
+    
+}
+
+
+.image{
+      height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  transition: transform 1s ease;
+  cursor: pointer;
+     box-shadow: 1px 1px 10px  #008080;
+
+}
+.image:hover{
+        transform: scale(1.1);
+}
+.btn{
+       box-shadow: 1px 1px 4px  #008080;
+}
+
+
+
+strong{
+    color: #008080;
+
+}
+
+/* skill */
+
+.slide-in-elliptic-top-fwd {
+	-webkit-animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    height: 200px;
+    width: 200px;
+    border: 10px solid #008080;
+    margin-top: 60px;  
+    /* need to change lateer when add next skills */
+    margin-left: 50px;
+    cursor: pointer;
+     color:#008080 ;
+
+
+
+}
+/* html */
+
+
+.skill-icons-html{
+    font-size: 40px;
+    margin-left: 60px;
+    color:#008080 ;
+}
+.skill-html:hover{
+box-shadow: 1px 1px 20px   rgb(120, 4, 4);
+border: 10px solid rgb(187, 13, 13);
+color: red;
+ 
+}
+.skill-icons-html:hover{
+    color: red;
+}
+
+.skill-write {
+    margin-top: 20px;
+    
+}
+/* css */
+.skill-icons-css{
+    font-size: 40px;
+    margin-left: 60px;
+    color:#008080 ;
+}
+.skill-icons-css:hover{
+    color: blue;
+}
+.skill-css:hover{
+    box-shadow: 1px 2px 20px  rgb(18, 18, 155);
+border: 10px solid blue;
+color:blue;
+}
+/* bootstrap */
+.skill-bootrstap:hover{
+box-shadow: 1px 2px 20px   #7711f8;
+border: 10px solid #7711f8;
+color:#7711f8;
+} 
+.skill-icons-bootstrap{
+     font-size: 40px;
+    margin-left: 65px;
+    color:#008080 ;
+}
+.skill-icons-bootstrap:hover{
+    color: #7711f8;
+}
+/* js */
+.skill-js:hover{
+box-shadow: 1px 2px 20px   rgb(139, 139, 5);
+border: 10px solid rgb(147, 147, 5);
+color:rgb(151, 151, 6);
+} 
+.skill-icons-js{
+     font-size: 40px;
+    margin-left: 65px;
+    color:#008080 ;
+}
+.skill-icons-js:hover{
+    color: rgb(170, 170, 7);
+}
+/* skill-last */
+.skilll-last{
+    margin-top: 200px;
+}
+
+
+
+
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
