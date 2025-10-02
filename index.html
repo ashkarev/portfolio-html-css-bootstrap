@@ -13,9 +13,12 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <!-- bootstrap js -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="./index.js">
+    
+     <!-- CDN -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+
     
      <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,6 +42,37 @@
   <body>
 
     <!-- about section -->
+     <section  class="about-section">
+      <div class="section-nothing container">
+        <div class="about-wrt text-center mt-5">
+         <h1 style="color: #008080;">About Me</h1>
+        <p class="fs-5">I build the web with innnovative features,seameless performance,exceptional user experiences. </p> 
+        </div>
+        <div class="row mt-5 ">
+          <div class="col-lg-6 col-md-12"  data-aos="fade-right" data-aos-duration="2000">
+           
+            <p> <strong class="fs-2">I'm Ashkar S,</strong> a dedicated <strong class="fs-3">Front-End Developer </strong> with a sharp eye for user experience and modern design. I specialize in <strong> building robust, high-performance web interfaces that are both beautiful and functional.</strong> <br>
+           I am actively expanding my skillset into the back end, committed to mastering the full <strong>ME(A)RN Stack</strong>  to transition into a versatile full-stack role and build comprehensive web applications from the ground up.</p>
+         <div class="row  text-center">
+          <div class="about-skill col-lg-3 col-md-4 mt-5 col-md-6 "><div class="dot mt-2"></div > Started  ME(A)RN Journey  </div>
+          <div class="about-skill col-lg-3 col-md-4 mt-5 col-md-6 "> <div class="dot mt-2"></div>HTML & CSS  proficient</div>
+          <div class="about-skill col-lg-3 col-md-4 mt-5 col-md-6 "> <div class="dot mt-2"></div>BOOTSTRAP proficient</div>
+          <div class="about-skill col-lg-3 col-md-4 mt-5 col-md-6 "> <div class="dot mt-2"></div>JAVA SCRIPT proficient</div>
+         </div>
+          
+          </div>
+
+          <div style="width: 400px;height: 400px; " class=" col-lg-6 col-md-12 image-about" data-aos="fade-left" data-aos-duration="2000"> 
+          <img  class="img-fluid mt-5 ms-5 image-about"  data-aos="fade-left" data-aos-duration="2000"src="./assets/me.jpg" alt="">
+
+          </div>
+
+         </div>
+        </div>
+        
+
+      </div>
+     </section>
 
     <!-- skill section -->
      <section style="height: 100vh;" class="skill-secttion container">
@@ -49,7 +83,7 @@
 
     <div class=" skill-all row  ">
       <div class=" col-lg-3 col-md-6">
-       <div class=" slide-in-elliptic-top-fwd skill-html  rounded-circle 
+       <div class=" slide-in-elliptic-top-fwd skill-html card-5  rounded-circle 
         "> 
        <p class="skill-write text-center fs-4 ">HTML 5</p>
        <p class="text-center ">Semantic Mark-up</p>
@@ -58,7 +92,7 @@
      </div>
       </div>
       <div class="col-lg-3 col-md-6">
-       <div class="slide-in-elliptic-top-fwd skill-css  rounded-circle  "> 
+       <div class="slide-in-elliptic-top-fwd skill-css  rounded-circle card-5 "> 
         <p class="skill-write text-center fs-4 ">CSS 3</p>
          <p class="text-center ">Modern Styling</p>
         <i class= "skill-icons-css fa-brands fa-css3-alt"></i>
@@ -66,7 +100,7 @@
 
       </div>
       <div class="col-lg-3 col-md-6">
-       <div class="slide-in-elliptic-top-fwd skill-bootrstap  rounded-circle  "> 
+       <div class="slide-in-elliptic-top-fwd skill-bootrstap  rounded-circle card-5 "> 
         <p class="skill-write text-center fs-4 ">Bootstrap</p>
          <p class="text-center "> Responsive Design</p>
         <i class="fa-brands fa-bootstrap skill-icons-bootstrap"></i>
@@ -74,7 +108,7 @@
         
       </div>
        <div class="col-lg-3 col-md-6">
-       <div class="slide-in-elliptic-top-fwd skill-js  rounded-circle  "> 
+       <div class="slide-in-elliptic-top-fwd skill-js  rounded-circle card-5 "> 
         <p class="skill-write text-center fs-4 ">Java Script</p>
          <p class="text-center ">ES6 + Features</p>
         <i class="fa-brands fa-js skill-icons-js"></i>
@@ -519,5 +553,24 @@
     <script>
       AOS.init();
     </script>
+    
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+ 
+
+  // Card 5
+  ScrollReveal().reveal('.card-5', {
+    origin: 'top',
+    distance: '280px',
+    opacity: 0,
+    scale: 0.65,
+    duration: 950,
+    delay: 600,
+    easing: 'ease-in'
+  });
+</script>
+
+   
+
   </body>
 </html>
